@@ -1,0 +1,72 @@
+.loginBody{ 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loginPage{ 
+    border:2px solid  rgb(12, 14, 15);
+    /* border-radius: 25px; */
+    padding: 5px;
+}
+.logoDiv{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{ 
+    width: 250px;
+    height: 70px;
+}
+.loginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;;
+    border-radius: 25px;
+}
+    .emailInp{ 
+        font-family: cursive;
+        font-size: 17px;
+        text-align: center;
+        border:none;
+        outline: none;
+        margin-bottom:5px;
+    }
+    .passwordInp{ 
+        font-family: cursive;
+        font-size: 17px;
+        text-align: center;
+        border-top: none;
+        border:none;
+        outline: none;
+    }
+.loginBtn{ 
+    width: 65px;
+    height: 35px;
+    background-color: rgba(250, 144, 6, 0.89);
+    border: 1px solid white;
+    margin-top: 15px;
+    margin-right: 5px;
+    outline: none;
+    border-radius: 15px;
+}
+.registrationBtn{ 
+    background-color: rgba(250, 144, 6, 0.89);
+    width: 95px;
+    height: 35px;
+    border: 1px solid white;
+    margin-top: 15px;
+    margin-right: 5px;
+    outline: none;
+    border-radius: 15px;
+}
+.loginBtn:active{ 
+    height: 33px;
+}
+.registrationBtn:active{ 
+    height: 33px;
+}

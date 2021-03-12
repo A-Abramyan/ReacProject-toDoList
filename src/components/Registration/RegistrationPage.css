@@ -1,0 +1,26 @@
+.registrationLogo{ 
+    width: 250px;
+    height: 70px;
+}
+.generalPage{ 
+    padding: 25px;
+    justify-content: start;
+    align-items: start;
+}
+.inputDiv{ 
+    height: 700px;
+    width: 150px;
+}
+.inputDiv input{ 
+    margin: 5px;
+    width: 300px;
+    height: 30px;
+}
+.addButton{ 
+    margin: 5px;
+    height: 30px;
+    width: 150px;
+}
+.error{
+    color:red
+}
